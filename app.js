@@ -186,7 +186,8 @@ app.delete("/delete/:id", async(req, res)=>{
 app.set('view engine', 'ejs');
 
 //DB config
-const db ='mongodb+srv://pius1:pius123@webdevelopment.xav1dsx.mongodb.net/gcashTracker';
+
+const db ='mongodb+srv://marcelpolocha1:081358pius@cluster0.f9a85hv.mongodb.net/gcashTracker';
 // connect to mongodb
 mongoose.connect(db)
 .then(()=>{
